@@ -2,6 +2,15 @@ body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+.navbar-header {
+    background: darkmagenta;
+    color: #fff;
+    height: 50px;
+    padding: 0px 0px;
+    font-size: 18px;
+    line-height: 50px;
+}
+
 .hero-spacer {
     margin-top: 50px;
 }
@@ -12,4 +21,9 @@ body {
 
 footer {
     margin: 50px 0;
+}
+
+@media (max-width: 240px)
+.navbar-header {
+    line-height: 0;
 }
