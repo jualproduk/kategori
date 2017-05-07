@@ -3,16 +3,11 @@ body {
 }
 
 .navbar-header {
-    background: darkmagenta;
     color: #fff;
     height: 50px;
     padding: 0px 0px 0px 15px;
     font-size: 18px;
     line-height: 50px;
-}
-
-.navbar-brand {
-    float: none;
 }
 
 .hero-spacer {
@@ -31,18 +26,4 @@ footer {
 .navbar-header {
     line-height: 21px;
 }
-    
-.navbar-brand {
-    float: none;
-    height: 0;
-    padding: 0;
-    font-size: 18px;
-    line-height: 20px;
-    }
-}
-
-@media (max-width: 767px) {
-.navbar-brand {
-    padding: 0;
-    }
 }
