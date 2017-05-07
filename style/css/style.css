@@ -10,8 +10,8 @@ body {
     line-height: 50px;
 }
 
-.sitetitle {
-    
+a.sitetitle {
+    text-decoration: none;
 }
 
 .hero-spacer {
