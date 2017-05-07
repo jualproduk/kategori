@@ -23,7 +23,8 @@ footer {
     margin: 50px 0;
 }
 
-@media (max-width: 240px)
+@media (max-width: 240px) {
 .navbar-header {
     line-height: 0;
 }
+    }
