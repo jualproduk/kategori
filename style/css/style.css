@@ -31,3 +31,9 @@ footer {
     line-height: 21px;
 }
 }
+
+@media (max-width: 767px) {
+.navbar-header {
+    padding: 0;
+}
+}
